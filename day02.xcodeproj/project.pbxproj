@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		83112E171B81684E00B493C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E161B81684E00B493C9 /* main.m */; };
+		83112E1F1B81686B00B493C9 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E1E1B81686B00B493C9 /* Car.m */; };
+		83112E221B816DDB00B493C9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E211B816DDB00B493C9 /* Person.m */; };
+		83112E251B81A2E700B493C9 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E241B81A2E700B493C9 /* Dog.m */; };
+		83112E281B81AB2000B493C9 /* PersonOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E271B81AB2000B493C9 /* PersonOne.m */; };
+		83112E2E1B81ACF700B493C9 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E2D1B81ACF700B493C9 /* Cat.m */; };
+		83112E311B81CD6A00B493C9 /* Classes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E301B81CD6A00B493C9 /* Classes.m */; };
+		83112E341B81CDE700B493C9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 83112E331B81CDE700B493C9 /* Student.m */; };
+		83D064E21B81DE4C00A5484F /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D064E11B81DE4C00A5484F /* NSString+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		83112E131B81684E00B493C9 /* day02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day02; sourceTree = BUILT_PRODUCTS_DIR; };
 		83112E161B81684E00B493C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83112E1D1B81686B00B493C9 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		83112E1E1B81686B00B493C9 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		83112E201B816DDB00B493C9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		83112E211B816DDB00B493C9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		83112E231B81A2E700B493C9 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		83112E241B81A2E700B493C9 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		83112E261B81AB2000B493C9 /* PersonOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonOne.h; sourceTree = "<group>"; };
+		83112E271B81AB2000B493C9 /* PersonOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonOne.m; sourceTree = "<group>"; };
+		83112E2C1B81ACF700B493C9 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		83112E2D1B81ACF700B493C9 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		83112E2F1B81CD6A00B493C9 /* Classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classes.h; sourceTree = "<group>"; };
+		83112E301B81CD6A00B493C9 /* Classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classes.m; sourceTree = "<group>"; };
+		83112E321B81CDE700B493C9 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		83112E331B81CDE700B493C9 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		83D064E01B81DE4C00A5484F /* NSString+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Test.h"; sourceTree = "<group>"; };
+		83D064E11B81DE4C00A5484F /* NSString+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				83112E161B81684E00B493C9 /* main.m */,
+				83112E1D1B81686B00B493C9 /* Car.h */,
+				83112E1E1B81686B00B493C9 /* Car.m */,
+				83112E201B816DDB00B493C9 /* Person.h */,
+				83112E211B816DDB00B493C9 /* Person.m */,
+				83112E231B81A2E700B493C9 /* Dog.h */,
+				83112E241B81A2E700B493C9 /* Dog.m */,
+				83112E261B81AB2000B493C9 /* PersonOne.h */,
+				83112E271B81AB2000B493C9 /* PersonOne.m */,
+				83112E2C1B81ACF700B493C9 /* Cat.h */,
+				83112E2D1B81ACF700B493C9 /* Cat.m */,
+				83112E2F1B81CD6A00B493C9 /* Classes.h */,
+				83112E301B81CD6A00B493C9 /* Classes.m */,
+				83112E321B81CDE700B493C9 /* Student.h */,
+				83112E331B81CDE700B493C9 /* Student.m */,
+				83D064E01B81DE4C00A5484F /* NSString+Test.h */,
+				83D064E11B81DE4C00A5484F /* NSString+Test.m */,
 			);
 			path = day02;
 			sourceTree = "<group>";
@@ -118,6 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83112E281B81AB2000B493C9 /* PersonOne.m in Sources */,
+				83112E221B816DDB00B493C9 /* Person.m in Sources */,
+				83112E311B81CD6A00B493C9 /* Classes.m in Sources */,
+				83112E341B81CDE700B493C9 /* Student.m in Sources */,
+				83D064E21B81DE4C00A5484F /* NSString+Test.m in Sources */,
+				83112E2E1B81ACF700B493C9 /* Cat.m in Sources */,
+				83112E1F1B81686B00B493C9 /* Car.m in Sources */,
+				83112E251B81A2E700B493C9 /* Dog.m in Sources */,
 				83112E171B81684E00B493C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +283,7 @@
 				83112E1C1B81684E00B493C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
